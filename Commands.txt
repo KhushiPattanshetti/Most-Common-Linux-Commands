@@ -1,0 +1,120 @@
+Essential Linux Commands
+
+File Management Commands:
+1. ls
+   - Lists files and directories in the current directory.
+   - Examples:
+     ls
+     ls -l for a detailed list including file permissions, size, etc.
+     ls -a to show hidden files.
+
+2. cd
+   - Changes the current directory.
+   - Examples:
+     cd /home/user/Documents
+     cd .. to move to the parent directory.
+     cd ~ to go to the home directory.
+
+3. pwd
+   - Prints the current working directory.
+
+4. cp
+   - Copies files or directories.
+   - Examples:
+     cp file1.txt /home/user/Documents
+     cp -r folder1 /home/user/Documents to copy a directory.
+
+5. mv
+   - Moves or renames files or directories.
+   - Examples:
+     mv old_name.txt new_name.txt
+     mv file1.txt /home/user/Documents
+
+6. rm
+   - Removes files or directories.
+   - Examples:
+     rm file1.txt
+     rm -r folder1 to remove a directory.
+
+7. touch
+   - Creates an empty file.
+   - Example:
+     touch newfile.txt
+
+8. mkdir
+   - Creates a new directory.
+   - Examples:
+     mkdir new_directory
+     mkdir -p parent/child to create parent and child directories.
+
+File Viewing Commands:
+1. cat
+   - Displays the contents of a file.
+
+2. less
+   - Views file contents one page at a time.
+
+3. head
+   - Displays the first few lines of a file.
+
+4. tail
+   - Displays the last few lines of a file.
+   - Example:
+     tail -f logfile.txt to follow changes in real-time.
+
+Permissions and Ownership Commands:
+1. chmod
+   - Changes file permissions.
+   - Examples:
+     chmod 755 file1.txt
+     chmod +x script.sh to make a file executable.
+
+2. chown
+   - Changes file ownership.
+   - Example:
+     chown user:group file1.txt
+
+Networking Commands:
+1. ping
+   - Checks connectivity to a host.
+
+2. ifconfig
+   - Displays or configures network interfaces.
+
+3. curl
+   - Transfers data from or to a server.
+
+4. wget
+   - Downloads files from the web.
+
+Process Management Commands:
+1. ps
+   - Displays active processes.
+   - Example:
+     ps aux for detailed process information.
+
+2. top
+   - Shows real-time process activity.
+
+3. kill
+   - Terminates a process.
+
+System Information Commands:
+1. uname
+   - Displays system information.
+
+2. df
+   - Displays disk space usage.
+
+3. free
+   - Displays memory usage.
+
+4. uptime
+   - Displays system uptime.
+
+Search Commands:
+1. find
+   - Searches for files and directories.
+
+2. grep
+   - Searches for patterns in files.
